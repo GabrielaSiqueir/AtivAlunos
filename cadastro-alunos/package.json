@@ -7,14 +7,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.x.x",
-    "react-dom": "^18.x.x",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@mui/material": "^5.x.x",
     "axios": "^1.x.x",
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x",
     "react-router-dom": "^6.x.x"
   },
   "devDependencies": {
-    "vite": "^4.x.x",
-    "@vitejs/plugin-react": "^3.x.x"
+    "@vitejs/plugin-react": "^3.x.x",
+    "vite": "^4.x.x"
   }
 }

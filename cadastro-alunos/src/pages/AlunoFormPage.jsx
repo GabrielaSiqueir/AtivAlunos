@@ -8,15 +8,21 @@ const AlunoFormPage = () => {
   const { id } = useParams();
 
   const handleSubmit = async (aluno) => {
+    console.log('Dados recebidos no handleSubmit:', aluno);
     try {
       if (id) {
+        console.log(`Atualizando aluno com id ${id}...`);
         await updateAluno(id, aluno);
       } else {
+        console.log('Criando novo aluno...');
         await createAluno(aluno);
       }
+      console.log('Salvo com sucesso! Redirecionando...');
+      alert('Aluno salvo com sucesso!');
       navigate('/');
     } catch (error) {
-      console.error('Erro ao salvar aluno', error);
+      console.error('Erro ao salvar aluno:', error);
+      alert('Erro ao salvar aluno. Veja o console para detalhes.');
     }
   };
 
