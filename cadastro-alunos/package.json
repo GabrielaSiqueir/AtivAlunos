@@ -1,0 +1,20 @@
+{
+  "name": "cadastro-alunos",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x",
+    "@mui/material": "^5.x.x",
+    "axios": "^1.x.x",
+    "react-router-dom": "^6.x.x"
+  },
+  "devDependencies": {
+    "vite": "^4.x.x",
+    "@vitejs/plugin-react": "^3.x.x"
+  }
+}
